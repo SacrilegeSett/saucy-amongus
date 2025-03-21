@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is AI?</title>
+    <style>
+      
+        body {
+            
+            background-color: #1f1f1f; /* Dark background color */
+            color: #fff; /* Light text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+          }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Subcategory */
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropdown .dropbtn {
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 20px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .navbar a, .dropdown:hover .dropbtn {
+            background-color: #424142;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        
+    /* Main Section */
+       .Main {
+        background-image: url('https://static.wikia.nocookie.net/among-us-wiki/images/5/58/The_Airship_Meeting_Room.png/revision/latest/scale-to-width-down/1200?cb=20210622034615');
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 100px 0;
+        
+    }
+
+    .Main h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #ddd4c4;
+    }
+
+    .Main p {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .content {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        padding: 30px;
+        backdrop-filter: blur(10px);
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    
+      }
+    ul.a {
+        list-style-type: circle;
+    }
+
+      .astronaut {
+        width: 100px;
+        height: 100px;
+        background-image: url('https://preview.redd.it/an871k4o1sn51.png?width=440&format=png&auto=webp&s=85dcd6cb73b8760802e254ee14dfa3c7ab444591');
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: -100px;
+        animation: floatAndMove 5s linear infinite;
+      }
+    
+      @keyframes floatAndMove {
+        0% {
+          top: 50%;
+          left: -100px;
+          transform: translateY(-50%);
+        }
+        50% {
+          top: 30%;
+          left: 50%;
+          transform: translateY(-50%) translateX(-50%);
+        }
+        100% {
+          top: 50%;
+          left: calc(100% + 100px);
+          transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="opinionAI_2.html">First Lab</a>
+        <a href="FAQ.html">FAQ</a>
+        <div class="dropdown">
+            <button class="dropbtn"> About AI ⮟
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="AboutAI.html">What is AI?</a>
+                <a href="Strong.html">Strong AI</a>
+                <a href="Narrow.html">Narrow AI</a>
+                <a href="Weak.html">Weak AI</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Computer Parts ⮟
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="computerparts.html">CPU</a>
+                <a href="motherboard.html">MotherBoard</a>
+                <a href="GPU.html">GPU</a>
+                <a href="RORAM.html">ROM & RAM</a>
+                <a href="Hard.html">Hard Disk</a>
+            </div>
+        </div>
+        <a href="https://amaeduph-my.sharepoint.com/:f:/g/personal/elaine_jacinto_live_ama_edu_ph/EuaZAEua1RhIs--LUoi40OIBCeQtdbYdY8UD6DFxi07ZAg?e=y3kgGD">...</a>
+    </div>
+    
+    <section class="Main">
+    <div class="content">
+        <h1>Introduction</h1>
+        <p>
+            about Artificial Intelligence
+        </p>
+        <a href="https://youtu.be/P29kAru7mVs?si=pWWFLBDIlfb3j6vD" class="btn">L E A R N <br> M O R E </a>
+    </div>
+</section>
+    <div style="padding:30px">
+        <h2 style="font-size:50px">Artificial Intelligence</h2>
+        <p>Refers to computer systems capable of performing complex tasks that historically only a human could do, such as reasoning, making decisions, or solving problems.
+            <br>
+            <br>
+        Artificial intelligence is prevalent across many industries. Automating tasks that don't require human intervention saves money and time, and can reduce the risk of human error.
+         <br><br>A computer motherboard may be found inside a computer casing, which is the point of connection for most of the computer’s elements and peripherals. When it comes to tower computers, one may look for a motherboard on either the right or left side of the tower; the circuit board is the most significant.<br>
+         <br><br>
+         <h4 style="font-size:30px">
+         <b>Types of Artificial Intelligence</b>
+         </h4>
+         <br>
+
+
+         <ul class="a">
+            <li>Reactive machines</li>
+            <br>
+            <li>Theory of Mind machines</li>
+            <br>
+            <li>Self-aware machines</li>
+            <br>
+            <li>Limited Memory machines</li>
+            
+          
+          </ul>
+         <br>
+         <br>
+         <br>
+         <b> BUT today we'll focus discussing about
+
+            <a href="Strong.html" class="btn">Strong</a>
+            <a href="Narrow.html" class="btn">, Narrow</a>
+            <a href="Weak.html" class="btn"> and Weak AI</a>
+         </b>
+         <br>
+         
+         
+        </p>
+    </div>
+    <div class="container">
+        <div class="astronaut"></div>
+    <!-- Footer -->
+<footer>
+    <center>
+    <p>source/s:
+    Coursera</p>
+    </center>
+</footer>
+
+</body>
+</html>
+    
+    </body>
+    </html>
